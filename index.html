@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script type="text/javascript" src="./Assets/JS/jquery-3.3.1.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./Assets/CSS/style.css">
+
+    <title>Laurens Tobias | Home</title>
+
+</head>
+
+<body>
+    <div id="move_1"></div>
+    <!-- Header -->
+    <header>
+        <div class="hd-container">
+            <h1>Laurens Tobias The 
+                <span class="txt-type" data-wait="3000" data-words='["Developer", "Designer", "Creator"]'></span>
+            </h1>
+            <h2>Welcome To My Portfolio</h2>
+            <div class="hd-move">
+                <a id="hd-show" href="#move_2"><i class="fas fa-angle-double-down fa-4x"></i></a>
+                <h2 id="hd-hide">View Portfolio</h2>
+            </div>
+        </div>
+    </header>
+
+    <div id="move_2"></div>
+    <div class="divide"></div>
+
+    <!-- Navbar -->
+    <div class="desktop">
+        <div id="nav-fade">
+            <nav>
+                <ul>
+                    <li><a href="#move_1">Home</a></li>
+                    <li><a href="#move_2">About me</a></li>
+                    <li><a href="#move_3">Projects</a></li>
+                    <li><a href="#move_4">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="mobile">
+        <div id="nav-fade-m">
+            <nav role="navigation">
+                <div id="menuToggle">
+                    <input type="checkbox"/>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul id="menu">
+                        <li><a href="#move_1"><li>Home</li></a>
+                        <li><a href="#move_2"><li>About me</li></a>
+                        <li><a href="#move_3"><li>Projects</li></a>
+                        <li><a href="#move_4"><li>Contact</li></a>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <section id="content_1">
+        <div class="container">
+            <h1>About me</h1>
+            <div class="showcase">
+                <div class="big-box box-top">
+                    <h2>Laurens Tobias</h2>
+                    <p>My name is Laurens Tobias i am a 19 year old programmer in training from Holland. I always loved every type of technology since i was small and later i got really into programming. I am extremely passionate about front-end and back-end development and would love to get a job as a programmer. In my free time i spend alot of time teaching myself different types of programming languages and doing up experience by creating different projects too practice for example creating a webgame with JavaScript and other languages.</p>
+                </div>
+                <div class="box-side">
+                </div>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <img src="./Assets/images/html.png" alt="">
+                    <h2>HTML5</h2>
+                    <p>I have experience with HTML from my study and because of making multiple websites with HTML.</p>
+                </div>
+                <div class="box">
+                    <img src="./Assets/images/css.png" alt="">
+                    <h2>CSS3</h2>
+                    <p>I my self have always wanted my websites too look good to the eye so i spent extra effort to make my websites look good because of that i have experience with CSS.</p>
+                </div>
+                <div class="box">
+                    <img src="./Assets/images/js.png" alt="">
+                    <h2>JavaScript</h2>
+                    <p>I like to make my website very interactive and have a lot of features so i have a nice experience with JavaScript.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="move_3"></div>
+    <div class="divide"></div>
+
+    <section id="content_2">
+        <div class="container">
+            <h1>My Projects</h1>
+            <div class="boxes-2">
+                <a href="./game/game.html"><div id="active" class="box-2">
+                    <h2>Webgame (W.I.P)</h2>
+                    <img src="./Assets/images/game.png" alt="">
+                </div></a>
+                <a href="./webshop/index.html"><div id="active" class="box-2">
+                    <h2>webshop</h2>
+                    <img src="./Assets/images/game.png" alt="">
+                </div></a>
+                <a href=""><div class="box-2">
+                    <h2>Place holder</h2>
+                    <img src="./Assets/images/dice.png" alt="">
+                </div></a>
+                <a href=""><div class="box-2">
+                    <h2>Place holder</h2>
+                    <img src="./Assets/images/dice.png" alt="">
+                </div></a>
+                <a href=""><div class="box-2">
+                    <h2>Place holder</h2>
+                    <img src="./Assets/images/dice.png" alt="">
+                </div></a>
+                <a href=""><div class="box-2">
+                    <h2>Place holder</h2>
+                    <img src="./Assets/images/dice.png" alt="">
+                </div></a>
+                <a href=""><div class="box-2">
+                    <h2>Place holder</h2>
+                    <img src="./Assets/images/dice.png" alt="">
+                </div></a>
+                <a href=""><div class="box-2">
+                    <h2>Place holder</h2>
+                    <img src="./Assets/images/dice.png" alt="">
+                </div></a>
+                <a href=""><div class="box-2">
+                    <h2>Place holder</h2>
+                    <img src="./Assets/images/dice.png" alt="">
+                </div></a>
+            </div>
+        </div>
+    </section>
+
+    <div id="move_4"></div>
+    <div class="divide"></div>
+
+    <article id="content_3">
+        <div class="container">
+            <h1>Contact me</h1>
+            <div class="boxes-3">
+                <div class="box big-box" id="contact">
+                    <h2>Contact me</h2>
+                    <textarea name="subject" id="mail" placeholder=" E-mail:"></textarea>
+                    <textarea id="mail" name="subject" placeholder=" Message . . ." style="height:200px"></textarea>
+                    <br>
+                    <input type="submit" value="Submit">
+                </div>
+                <div class="box box-side-2">
+                    <h2>Info</h2>
+                    <p><span>Phone number:</span> +3121371298</p>
+                    <p><span>E-mail:</span> jhon.doe@fakemail.com</p>
+                    <a href="#" class="fa fa-google"></a>
+                    <a href="https://www.linkedin.com/in/laurens-tobias-545192139" class="fa fa-linkedin"></a>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer>
+        <p>Laurens Tobias &copy; 2018</p>
+    </footer>
+
+    <script type="text/javascript" src="./Assets/JS/main.js"></script>
+</body>
+
+</html>

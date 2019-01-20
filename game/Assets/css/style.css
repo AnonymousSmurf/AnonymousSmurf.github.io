@@ -1,0 +1,328 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #565656;
+	font-family: 'Aclonica';
+}
+
+
+
+/*/// Top Screen ///*/
+
+/* Banner */
+#banner-container{
+	z-index: 0;
+	position: relative;
+
+}
+
+#banner-box{
+	padding: 77px 0 0 0;
+	background-color: #192733;
+	border-bottom: 3px solid #fff;
+}
+/* user */
+#stats-container{
+	margin: 0;
+	padding: 0;
+}
+
+#user{
+	position: absolute;
+	left: 10px;
+	top: 21px;
+	color: #FFFF00;
+	font-size: 30px;
+}
+
+#lvl{
+	position: absolute;
+	top: 30px;
+	left: 300px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#icon-money{
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 25px;
+	right: 140px;
+	color: #fff;
+}
+
+#icon-money img{
+	height: 30px;
+}
+#money{
+	position: absolute;
+	top: 30px;
+	right: 40px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+}
+/* Menu */
+#menu-position{
+	top: 45px;
+    width: auto;
+    height: 40px;
+    position: absolute;
+    margin: 0 auto;
+}
+
+#menu-box{
+	background-color: #192733;
+	width: 300px;
+	padding: 60px 0 0 0;
+	border: 5px solid #fff;
+	position: absolute;
+	display: block;
+	margin: 0 auto;
+	border-radius: 40px;
+}
+
+.menu-box-txt{
+	top: 35px;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+}
+
+.menu-box-txt:nth-of-type(1) { color: #00FF00; }
+.menu-box-txt:nth-of-type(2) { color: #FFD700; }
+.menu-box-txt:nth-of-type(3) { color: #8B4513; }
+.menu-box-txt:nth-of-type(4) { color: #bf00ff; }
+.menu-box-txt:nth-of-type(5) { color: #FF0000; }
+.menu-box-txt:nth-of-type(6) { color: #00FFFF; }
+
+/* Center divs */
+.center-box{
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+/* Time - Banner Box */
+#time{
+	margin: 0;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	top: 13px;
+	color: #fff;
+	font-size: 20px;
+}
+
+
+
+/*/// Buttom Screen ///*/
+
+/* Footer */
+#footer-box{
+	overflow: hidden;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #192733;
+	padding: 37px 0 0 0;
+	border-top: 3px solid #fff;
+}
+
+
+
+/*/// left screen ///*/
+
+/* Options Left */
+#page-left{
+	position: fixed;
+	width: auto;
+	height: calc( 100% - 120px );
+	top: 80px;
+
+}
+
+.op-left{
+	position: absolute;
+	left: 0;
+	height: 40px;
+	width: 60px;
+	background: rgba(255,255,255,0.2);
+	transition:  width 0.3s ease;
+}
+
+.op-left:nth-of-type(1) { top: 120px; }
+.op-left:nth-of-type(2) { top: 220px; }
+.op-left:nth-of-type(3) { top: 320px; }
+.op-left:nth-of-type(4) { top: 420px; }
+.op-left:nth-of-type(5) { top: 520px; }
+.op-left:nth-of-type(6) { top: 620px; }
+
+.op-left:nth-of-type(1) .op-left-bar { background: #00FF00; }
+.op-left:nth-of-type(2) .op-left-bar { background: #FFD700; }
+.op-left:nth-of-type(3) .op-left-bar { background: #8B4513; }
+.op-left:nth-of-type(4) .op-left-bar { background: #bf00ff; }
+.op-left:nth-of-type(5) .op-left-bar { background: #FF0000; }
+.op-left:nth-of-type(6) .op-left-bar { background: #00FFFF; }
+
+
+.op-left img{
+	height: 24px;
+	margin-top: 8px;
+	margin-left: 15px;
+}
+
+.op-left-bar{
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100%;
+	width: 8px;
+	background: #fff;
+}
+
+.op-left-bar li{
+	list-style: none;
+}
+
+.op-left-bar a{
+	font-size: 18px;
+	line-height: 40px;
+	position: absolute;
+	right: calc(100% + 10px);
+	opacity: 0;
+	transition: opacity 0.2s ease;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.op-left:hover .op-left-bar a{
+	opacity: 1;
+}
+
+.op-left:hover{
+	width: 180px;
+}
+
+
+
+/*/// Content 1 - Shops-box ///*/
+
+#content-wrapper{
+	position: relative;
+}
+
+#shop-spacing{
+	width: auto;
+	height: calc( 100% - 120px );
+	top: 80px;
+	text-decoration: none;
+}
+
+.shop-box{
+	margin: 0;
+	position: absolute;
+	padding: 75px 250px 75px 250px;
+	background-color: #192733;
+	border: 3px solid #ffffff;
+	border-radius: 40px;
+}
+
+.shop-box hr{
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	width: 300px;
+	top: 30px;
+	left: 160px;
+}
+
+.shop-box-hd{
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	color: #ffa500;
+	font-size: 20px;
+	text-align: center;
+	top: 8px;
+	left: 275px;
+}
+
+.shop-box-hd p{
+	margin: 0;
+}
+
+.shop-box-cont{
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+	font-size: 15px;
+	top: 30px;
+	left: 160px;
+}
+
+.icon-box-s{
+	position: absolute;
+	top: 30px;
+	width: 85px;
+	height: 85px;
+	background: #192733;
+	left: 37px;
+	border: 3px solid #fff;
+}
+
+
+.icon-box-d{
+	position: absolute;
+	top: 33px;
+	width: 80px;
+	height: 80px;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+	background: #192733;
+	left: 40px;
+	border: 3px solid #fff;
+}
+
+.icon-box-d img{
+	height: 65px;
+	position: absolute;
+	transform: rotate(-45deg);
+	top: 9px;
+	left: 9px;
+}
+
+
+.shop-box:hover .icon-box-d { background: #2f3c47; }
+.shop-box:hover .icon-box-s { background: #2f3c47; }
+
+.shop-box:hover:nth-of-type(1){ top: 75px; transition: top 0.2s ease; background-color: #2f3c47; }
+.shop-box:hover:nth-of-type(2){ top: 75px; transition: top 0.2s ease; background-color: #2f3c47; }
+.shop-box:hover:nth-of-type(3){ top: 275px; transition: top 0.2s ease; background-color: #2f3c47; }
+.shop-box:hover:nth-of-type(4){ top: 275px; transition: top 0.2s ease; background-color: #2f3c47; }
+.shop-box:hover:nth-of-type(5){ top: 475px; transition: top 0.2s ease; background-color: #2f3c47; }
+.shop-box:hover:nth-of-type(6){ top: 475px; transition: top 0.2s ease; background-color: #2f3c47; }
+
+.shop-box:nth-of-type(1) {left: 22%; top: 90px; }
+.shop-box:nth-of-type(2) {right: 22%; top: 90px; }
+.shop-box:nth-of-type(3) {left: 22%; top: 290px; }
+.shop-box:nth-of-type(4) {right: 22%; top: 290px; }
+.shop-box:nth-of-type(5) {left: 22%; top: 490px; }
+.shop-box:nth-of-type(6) {right: 22%; top: 490px; }
+
+/*/// fonts ///*/
+@font-face {
+  font-family: 'Aclonica';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Aclonica Regular'), local('Aclonica-Regular'), url(../fonts/font.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}

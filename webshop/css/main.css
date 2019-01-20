@@ -1,0 +1,205 @@
+/* Global */
+
+:root{
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #e6e6e6;
+}
+
+.top-container{
+    background: #1a3368;
+    border-bottom: 7px solid #fd6a02;
+}
+
+/* Top - Nav */
+.nav {
+    padding: 30px 0 30px 37%;
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav li {
+    display: inline;
+    padding: 0px 30px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.nav a.active {
+    color: #fd6a02;
+}
+
+/* top - shoping cart - Search */
+
+.nav .search-container {
+    position: absolute;
+    float: right;
+    left: 85%;
+    top: 20px;
+}
+
+.nav input[type=text] {
+    position: absolute;
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.nav .search-container button {
+    position: absolute;
+    left: 228px;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Top - Brand */
+.brand {
+    margin: 0;
+    padding: 14px 0 0 1%;
+    float: left;
+}
+
+.brand p {
+    margin: 0;
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+#chicken {
+    color: #fd6a02;
+}
+/* INDEX */
+/* Content - Showcase */
+
+.slides {
+    display: none;
+}
+
+.slide-image-1 {
+    min-height: 300px;
+    background-image: url(../img/chicken.jpg);
+    background-size: contain;
+    box-shadow: var(--shadow);
+}
+
+.slide-image-2 {
+    min-height: 300px;
+    background-image: url(../img/egg.jpg);
+    background-size: contain;
+    box-shadow: var(--shadow);
+}
+
+.slide-image-3 {
+    min-height: 300px;
+    background-image: url(../img/chick.jpg);
+    background-size: contain;
+    box-shadow: var(--shadow);
+}
+
+.center {
+    width: 70%;
+    margin: auto;
+    padding:0;
+}
+
+.dot-container{
+    position: absolute;
+    left: 48%;
+    top: 340px;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #f7f7f7;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+
+.active2, .dot:hover {
+    background-color: #393939;
+}
+
+/* Content - main page */
+
+.center {
+    width: 80%;
+    margin: auto;
+    background: #fff;
+    box-shadow: var(--shadow);
+}
+
+.categories{
+    margin: 0px 0 10px 0;
+    display: inline-block;
+    list-style: none;
+    top: 0;
+}
+
+.categories ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.categories a{
+    padding: 5px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.categories td:hover{
+    background: #d9d9d9;
+}
+
+.categories table{
+    margin: 0;
+    border-collapse: separate;
+    border-spacing: 0px;
+    border: solid 1px #d9d9d9;
+}
+
+.categories td {
+    margin: 0;
+    border-collapse: separate;
+    border-spacing: 0px;
+    border: solid 1px #d9d9d9;
+    padding: 0px;
+    width: 30%;
+}
+
+.categories td a {
+    display:block;
+    position:relative
+}
+
+.current{
+    background: #d9d9d9;
+}
