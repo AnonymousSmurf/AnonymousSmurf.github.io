@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SKILL GRIND</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+    <div class="recources">
+        <table>
+            <tr>
+                <tr>
+                    <h3>Recources</h3>
+                </tr>
+                <td>
+                    <p>Gold: <span id="gold-count">0</span></p>
+                    <p>Food: <span id="food-count">0</span></p>
+                    <p>Medicine: <span id="medicine-count">0</span></p>
+                    <p>Day: <span id="day-count">0</span></p>
+                    <p>Time: <span id="time-count">0</span></p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="skills">
+        <table>
+            <tr>
+                <tr>
+                    <h3>Character</h3>
+                </tr>
+                <td>
+                    <p>Health: <span id="health-count">100</span>/100</p>
+                    <p>Energy: <span id="energy-count">100</span>/100</p>
+                    <p>Hunger: <span id="hunger-count">100</span>/100</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="skills">
+        <table>
+            <tr>
+                <tr>
+                    <h3>Skills</h3>
+                </tr>
+                <td>
+                    <p>Mining: <span id="level-mining">0</span> [<span id="skill-mining">0</span>%]</p>
+                    <p>Fishing: <span id="level-fishing">0</span> [<span id="skill-fishing">0</span>%]</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <h2>Work</h2>
+    <button id="work-mine">Work in mine</button>
+    <button id="work-fish"><span id="fishing-unlock"></span></button>
+
+    <h2>Character</h2>
+    <button id="produce-energy">Sleep</button>
+    <button id="produce-hunger">Eat</button>
+    <button id="produce-medicine">Use medicine</button>
+
+    <h2>Market</h2>
+    <p>BUY</p>
+    <button id="get-food">Food 10$</button>
+    <button id="learn-fishing"><span id="fishing-pole"></span></button>
+    <button id="get-medicine">Medicine 15$</button>
+    <p>SELL</p>
+    <button id="sell-food">Sell food $6</button>
+
+    <h2>Portfolio</h2>
+    <a href="../index.html"><button>Portfolio</button></a>
+
+<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+<script src="main.js"></script>
+</body>
+
+</html>

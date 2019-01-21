@@ -1,0 +1,30 @@
+h3 {
+    margin: 0;
+    text-align: center;
+}
+
+table {
+    border: 3px solid black;
+    margin: 3px;
+}
+
+.recources{
+    float: right;
+}
+
+.recources span{
+    float: right;
+}
+
+.recources table {
+    width: 140px;
+}
+
+
+.skills {
+    float: right;
+}
+
+.skills table {
+    width: 140px;
+}
